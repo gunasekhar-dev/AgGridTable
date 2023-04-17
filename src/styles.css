@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import "ag-grid-community/styles/ag-grid.css"; /* Core grid CSS, always needed*/
+/* Optional theme CSS */
+/* @import "ag-grid-community/styles/ag-theme-alpine.css";  */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+.ag-theme-alpine .ag-row.ag-row-level-0 {
+  background-color: #dddbdb;
+}
+
+.ag-theme-alpine .ag-row.ag-row-level-1 {
+  background-color: #e6e5e5b3;
+}
